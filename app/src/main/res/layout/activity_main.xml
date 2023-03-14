@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDEDED"
+    android:gravity="center"
+    tools:context="MainActivity">
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDEDED"
+        android:orientation="vertical"
+        android:paddingVertical="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cat"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#FF9800"
+                android:fontFamily="cursive"
+                android:onClick="Activity1"
+                android:text="Activity 1"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                app:cornerRadius="12dp"></Button>
+
+            <Button
+                android:id="@+id/bt_dog"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#3F51B5"
+                android:fontFamily="cursive"
+                android:onClick="Activity2"
+                android:text="Activity 2"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                app:cornerRadius="12dp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_horse"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#9C27B0"
+                android:fontFamily="cursive"
+                android:onClick="Activity3"
+                android:text="Activity 3"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                app:cornerRadius="12dp"></Button>
+
+            <Button
+                android:id="@+id/btn_fish"
+                android:layout_width="150dp"
+                android:layout_height="130dp"
+                android:layout_margin="12dp"
+                android:backgroundTint="#E91E63"
+                android:fontFamily="cursive"
+                android:onClick="Activity4"
+                android:text="Activity 4"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                app:cornerRadius="12dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
